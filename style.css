@@ -1,10 +1,7 @@
-/* *{
-    background-color: rgb(48, 152, 187);
-  }
-   */
+
    * {
     text-align: center;
-    color: rgb(7, 18, 20);
+    
   }
 *body {
             
@@ -18,20 +15,27 @@
   
     font-size: 24px;
     margin-bottom: 20px;
-    background-color: #13ebce;
+    /* background-color: rgb(69, 2, 100); */
+    background-color: rgb( 255, 131, 108);
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(80, 248, 2, 0.829);
+    box-shadow: 0 0 10px rgba(0,0,0,0);
 }
 
 .container {
-    margin: 20px auto;
-    width:40%;
-    max-width: 500px;
+    /* margin: 10px auto;
+    width:90%;
+    max-width: 400px;
     background-color: #3cff00;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0); */
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: rgb(8, 142, 196);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(167,230,255);
 }
 .container p {
     font-size: 15px;
@@ -44,21 +48,21 @@
     margin-top: 20px;
 }
 .link-box {
-    background-color: #35f106;
+    background-color: #6AFF1A;
     padding: 10px 20px;
     border-radius: 10px;
     margin: 0 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-decoration: none;
-    color: #0b010e;
-    font-size: 16px;
+    text-decoration:none;
+    font-size: 15px;
+    color: rgb(2, 2, 2) !important;;
 }
 .link-box:hover {
-    background-color: #040bcf86;
+    background-color: rgb(255, 28, 108);
 }
 #quote:hover {
-    background-color: #040bcf86;
+    background-color: rgb(255, 28, 108);
 }
 .container:hover {
-    background-color: #040bcf86;
+    background-color: rgb(255, 28, 108);
 }
